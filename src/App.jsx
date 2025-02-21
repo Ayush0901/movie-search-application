@@ -6,6 +6,7 @@ import { useDebounce } from 'react-use';
 import { Client } from 'appwrite';
 import { updateSearchCount } from './appwrite';
 import { getTrendingMovies } from './appwrite';
+import { Analytics } from "@vercel/analytics/react"
 
 const API_BASE_URL = 'https://api.themoviedb.org/3';
 
